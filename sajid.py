@@ -66,5 +66,18 @@ print("hello "+name)
 print("your age is " + str(age) + " years old" )
 print("you are "+str(height)+"inch tall")
 
+pi = 3.14
+x = 1
+y = 2
+z = 3
+#print(math.ceil(pi))
+#print(round(pi))
+#print(math.floor(pi))
+#print(abs(pi))
+#print(pow(pi,2))
+#print(math.sqrt(pi))
+print(max(x, y, z))
+print(min(x, y, z)) 
+
 
 
