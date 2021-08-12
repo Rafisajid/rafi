@@ -59,8 +59,12 @@ print(x)
 print(y)
 print(z)
 
-
-
+name = input("what is ur name :")
+age = int(input("how old are you?:"))
+height =float(input("how tall are u :"))
+print("hello "+name)
+print("your age is " + str(age) + " years old" )
+print("you are "+str(height)+"inch tall")
 
 
 
