@@ -79,5 +79,13 @@ z = 3
 print(max(x, y, z))
 print(min(x, y, z)) 
 
+name = "rafi sajid"
 
+first_name = name[:5]
+last_name = name[5:10]
+funky_name = name[0:10:3]
+reverse_name = name[::-1]
+
+
+print(reverse_name)
 
