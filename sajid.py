@@ -100,3 +100,19 @@ elif age < 0:
     print("you haven't been born yet!")
 
 else: print("you are a child") 
+    
+temp = int(input("what is the temperature outside?: "))
+
+if temp >=0 and temp <= 30:
+    print("today's temperature is good!")
+    print("let's play some games outside")
+elif temp < 0 or temp >30:
+    print("the temparature is bad today!")
+    print("stay home today")
+
+if not(temp >=0 and temp <= 30):
+    print("the temparature is bad today!")
+    print("stay home today")
+elif not (temp < 0 or temp >30):
+    print("today's temperature is good!")
+    print("let's play some games outside")    
