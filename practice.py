@@ -243,6 +243,15 @@ last_name = name[5:].lower()
 
 print(last_name)
 
+name = "rafi sajid@"
 
+#if(name[0].islower()):
+    #name = name.capitalize()
+
+first_name = name[0:4].upper()
+last_name = name[5:10].upper()
+last_symbol = name[-1]
+
+print(last_symbol)
 
 
