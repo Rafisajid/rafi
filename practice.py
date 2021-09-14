@@ -259,3 +259,13 @@ def hello(first_name,last_name,age):
     print("Hello !"+first_name+" "+last_name)
     print("You are "+str(age)+ " years old")
 hello("Sajid","Rafi",21 )
+
+
+def multply(number1,number2):
+
+    return number1 * number2
+
+X = multply(100,2)
+print(X)
+
+
