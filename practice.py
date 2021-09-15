@@ -274,3 +274,14 @@ def hello(first_name,last_name):
     print("hello "+first_name+" "+last_name)
 
 hello(last_name="rafi",first_name="sajid")
+
+
+#num = input("Enter a whole positive number: ")
+#num = float(num)
+#num = abs(num)
+#num = round(num)
+
+#print(num)
+
+print(round(abs(float(input("Enter a whole positive number: ")))))
+
