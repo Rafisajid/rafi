@@ -269,3 +269,8 @@ X = multply(100,2)
 print(X)
 
 
+
+def hello(first_name,last_name):
+    print("hello "+first_name+" "+last_name)
+
+hello(last_name="rafi",first_name="sajid")
