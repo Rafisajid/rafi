@@ -285,3 +285,12 @@ hello(last_name="rafi",first_name="sajid")
 
 print(round(abs(float(input("Enter a whole positive number: ")))))
 
+
+name = "Rafi Sajid"
+
+def display_name():
+    #name = "Sajid"
+    print(name)
+
+display_name()
+print(name)
