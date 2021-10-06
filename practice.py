@@ -294,3 +294,23 @@ def display_name():
 
 display_name()
 print(name)
+
+
+while True:
+    name = input("Enter your name: ")
+    if name != "":
+        break
+
+phone_number = "018-24-90-706"
+
+for i in  phone_number:
+    if i == "-":
+        continue
+    print(i, end="")
+
+
+for i in range(0,10):
+    if i == 5:
+        pass
+    else:
+        print(i)
