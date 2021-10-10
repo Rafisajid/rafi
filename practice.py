@@ -314,3 +314,19 @@ for i in range(0,10):
         pass
     else:
         print(i)
+        
+        
+  food = ["water","banana","icecream","cold drinks"]
+
+food[0] = "Burger"
+
+food.append("coke")
+food.remove("banana")
+food.pop()
+food.insert(0,"cake")
+food.sort()
+food.clear()
+
+for i in food:
+    print(i)      
+        
