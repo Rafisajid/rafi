@@ -339,3 +339,16 @@ dessert = ["rosho golla","ice cream","tofi"]
 food = [drinks,dinner,dessert]
 
 print(food[2][1])
+
+
+student = ("Sajid",21,"Male")
+
+print(student.count(21))
+print(student.index("Sajid"))
+
+for i in student:
+    print(i)
+
+if "Sajid" in student:
+    print("He is a newbie")
+
