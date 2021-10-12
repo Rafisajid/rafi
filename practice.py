@@ -329,4 +329,13 @@ food.clear()
 
 for i in food:
     print(i)      
-        
+
+    
+    
+drinks = ["coke","soda","lemon juice"]
+dinner = ["biriani","burger","pizza"]
+dessert = ["rosho golla","ice cream","tofi"]
+
+food = [drinks,dinner,dessert]
+
+print(food[2][1])
